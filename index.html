@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>BenCodes</title>
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+  <style>
+    body {
+      font-family: "Rubik", sans-serif;
+      font-optical-sizing: auto;
+    }
+    .navbar-custom {
+      height: 70px;
+    }
+    .navbar-custom svg {
+      margin-right: 8px;
+      color: black;
+    }
+    @media (max-width: 768px) {
+      .navbar-nav {
+        flex-direction: row;
+        justify-content: center;
+      }
+    }
+    @media (max-width: 375px) {
+      .navbar-nav {
+        flex-direction: row;
+        justify-content: center;
+        font-size: 10px;
+      }
+      .logo {
+        font-size: 13px;
+      }
+    }
+  </style>
+</head>
+<body>
+<div class="d-flex flex-column min-vh-100">
+  
+  <header class="px-4 px-lg-6 navbar-custom d-flex align-items-center justify-content-between bg-light">
+    <a class="logo fw-medium text-danger d-flex align-items-center text-decoration-none" href="#">
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        width="24"
+        height="24"
+        viewBox="0 0 24 24"
+        fill="none"
+        stroke="currentColor"
+        stroke-width="2"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+        class="h-6 w-6"
+      >
+        <polyline points="4 17 10 11 4 5"></polyline>
+        <line x1="12" x2="20" y1="19" y2="19"></line>
+      </svg>
+      <span> Ben's</span>
+    </a>
+    <nav id="navbarNav">
+      <ul class="navbar-nav ms-auto d-flex flex-row gap-4 gap-sm-6">
+        <li class="nav-item">
+          <a class="nav-link text-danger fw-medium" href="#about">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-danger fw-medium" href="#projects">Projects</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-danger fw-medium" href="#contact">Contact</a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+  <main class="flex-grow-1">
+    <section class="w-100 py-12 py-md-24 py-lg-32">
+      <div class="container px-4 px-md-6">
+        <div class="row g-6 g-lg-12 g-xl-16">
+          <div class="d-flex flex-column justify-content-center gap-4">
+            <div class="gap-2">
+              <h1 class="display-4 fw-bold">
+                Ben, Python Web Scraper &amp; Telegram Bots Developer
+              </h1>
+              <p class="max-w-600 text-muted">
+                Passionate about Web Scraping using Requests and Selenium, and creating powerful Telegram bots with Pyrogram.
+              </p>
+            </div>
+            <div class="d-flex flex-column flex-sm-row gap-2">
+              <a
+                class="btn btn-danger"
+                href="#about"
+              >
+                Learn More
+              </a>
+              <a
+                class="btn btn-outline-danger"
+                href="#contact"
+              >
+                Contact Me
+              </a>
+            </div>
+          </div>
+          <img
+            src="imgs/logo.png"
+            width="550"
+            height="550"
+            alt="Ben"
+            class="mx-auto img-fluid rounded-xl"
+          />
+        </div>
+      </div>
+    </section>
+    <section id="about" class="w-100 py-12 py-md-24 py-lg-32 bg-light">
+      <div class="container px-4 px-md-6">
+        <div class="row g-6 g-lg-12">
+          <div>
+            <h2 class="display-4 fw-bold">
+              About Me
+            </h2>
+            <p class="max-w-600 text-muted">
+              I'm a passionate Python Web Scraper and Telegram Bots Developer 
+              with a strong focus on Telegram bots. I specialize in Requests, Bs4 and
+              Selenium for Web Scraping and Pyrogram for creating powerful Telegram bots.
+            </p>
+            <div class="mt-6 d-grid gap-4">
+              <div class="d-flex align-items-center gap-2">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="50"
+                  height="50"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  class="h-6 w-6 text-danger"
+                >
+                  <polyline points="4 17 10 11 4 5"></polyline>
+                  <line x1="12" x2="20" y1="19" y2="19"></line>
+                </svg>
+                <div>
+                  <h3 class="h5 fw-bold">Web Scraping</h3>
+                  <p class="text-muted">
+                    Expertise in Requests, Bs4 and Selenium, a popular Python Web Scraping libraries, for professional
+                    Web Scraping applications.
+                  </p>
+                </div>
+              </div>
+              <div class="d-flex align-items-center gap-2">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="50"
+                  height="50"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  class="h-6 w-6 text-danger"
+                >
+                  <path d="M17 6.1H3"></path>
+                  <path d="M21 12.1H3"></path>
+                  <path d="M15.1 18H3"></path>
+                </svg>
+                <div>
+                  <h3 class="h5 fw-bold">Telegram Bots</h3>
+                  <p class="text-muted">
+                    Proficient in Pyrogram, a modern Telegram bot API library for Python, to create powerful and
+                    feature-rich bots.
+                  </p>
+                </div>
+              </div>
+              <div class="d-flex align-items-center gap-2">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="50"
+                  height="50"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  class="h-6 w-6 text-danger"
+                >
+                  <path d="M19.439 7.85c-.049.322.059.648.289.878l1.568 1.568c.47.47.706 1.087.706 1.704s-.235 1.233-.706 1.704l-1.611 1.611a.98.98 0 0 1-.837.276c-.47-.07-.802-.48-.968-.925a2.501 2.501 0 1 0-3.214 3.214c.446.166.855.497.925.968a.979.979 0 0 1-.276.837l-1.61 1.61a2.404 2.404 0 0 1-1.705.707 2.402 2.402 0 0 1-1.704-.706l-1.568-1.568a1.026 1.026 0 0 0-.877-.29c-.493.074-.84.504-1.02.968a2.5 2.5 0 1 1-3.237-3.237c.464-.18.894-.527.967-1.02a1.026 1.026 0 0 0-.289-.877l-1.568-1.568A2.402 2.402 0 0 1 1.998 12c0-.617.236-1.234.706-1.704L4.23 8.77c.24-.24.581-.353.917-.303.515.077.877.528 1.073 1.01a2.5 2.5 0 1 0 3.259-3.259c-.482-.196-.933-.558-1.01-1.073-.05-.336.062-.676.303-.917l1.525-1.525A2.402 2.402 0 0 1 12 1.998c.617 0 1.234.236 1.704.706l1.568 1.568c.23.23.556.338.877.29.493-.074.84-.504 1.02-.968a2.5 2.5 0 1 1 3.237 3.237c-.464.18-.894.527-.967 1.02Z"></path>
+                </svg>
+                <div>
+                  <h3 class="h5 fw-bold">Problem-Solving</h3>
+                  <p class="text-muted">
+                    Adept at breaking down complex problems and implementing efficient solutions using Python's
+                    powerful features.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="d-flex flex-column justify-content-center">
+            <img
+              src="/imgs/logo.png"
+              width="550"
+              height="310"
+              alt="About"
+              class="mx-auto img-fluid rounded-xl"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="projects" class="w-100 py-12 py-md-24 py-lg-32">
+      <div class="container px-4 px-md-6">
+        <div class="d-flex flex-column align-items-center justify-content-center gap-4 text-center">
+          <div class="gap-2">
+            <h2 class="display-4 fw-bold">
+              Projects
+            </h2>
+            <p class="max-w-600 text-muted">
+              Here are some of the projects I’ve worked on, showcasing my skills in backend development and bot creation.
+            </p>
+          </div>
+          <div class="d-flex flex-column flex-md-row gap-4">
+            <div class="card">
+              <img
+                src="imgs/youtube_bot.png"
+                class="card-img-top"
+                alt="Project 1"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Telegram Bot<br>Advanced Youtube Videos Downloader</h5>
+                <p class="card-text">
+                  Advanced Telegram Bot for search & download Youtube videos using commands, Built in Pyrogram, yt-dlp, pysmartdl and more libraries.
+                </p>
+                <a href="https://github.com/sa3ed7asan/YouTube-Telegram-Bot" class="btn btn-danger">View Project</a>
+              </div>
+            </div>
+            <div class="card">
+              <img
+                src="imgs/islamweb_api.png"
+                class="card-img-top"
+                alt="Project 2"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Web Scraping<br>IslamWeb API</h5>
+                <p class="card-text">
+                  Advanced Web Scraping for IslamWeb Website using requests and bs4 libraries, provides functions to search and get fatwa from the website
+                </p>
+                <a href="https://github.com/sa3ed7asan/islam-web-api" class="btn btn-danger">View Project</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="contact" class="w-100 py-12 py-md-24 py-lg-32 bg-light">
+      <div class="container px-4 px-md-6">
+        <div class="row g-6 g-lg-12">
+          <div class="col-lg-6 d-flex flex-column justify-content-center">
+            <h2 class="display-4 fw-bold">
+              Contact
+            </h2>
+            <p class="max-w-600 text-muted">
+              Feel free to reach out to me for any questions, collaborations, or just to say hello!
+            </p>
+          </div>
+          <div class="col-lg-6 d-flex flex-column">
+            <form>
+              <div class="mb-4">
+                <label for="name" class="form-label">Name</label>
+                <input type="text" class="form-control" id="name" placeholder="Your Name">
+              </div>
+              <div class="mb-4">
+                <label for="email" class="form-label">Email address</label>
+                <input type="email" class="form-control" id="email" placeholder="Your Email">
+              </div>
+              <div class="mb-4">
+                <label for="message" class="form-label">Message</label>
+                <textarea class="form-control" id="message" rows="4" placeholder="Your Message"></textarea>
+              </div>
+              <button type="submit" class="btn btn-danger mb-4">Send Message</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer class="px-4 px-lg-6 py-4 bg-dark text-light text-center">
+    <p class="mb-0">© 2024 Ben's Codes. All rights reserved.</p>
+  </footer>
+</div>
+  <!-- Bootstrap JS and dependencies -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</html>
