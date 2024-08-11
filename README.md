@@ -54,4 +54,9 @@ To run this project locally, follow these steps:
    └── .gitignore              # Git ignore file
    ```
 
-   
+## Contact
+If you have any questions, feedback, or would like to collaborate, feel free to reach out:
+Email: Sa3ed7asanOfficial@gmail.com
+
+## License
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
