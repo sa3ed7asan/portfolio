@@ -49,6 +49,9 @@ To run this project locally, follow these steps:
    │   ├── youtube_bot.png     # Image for the YouTube bot project
    │   └── islamweb_api.png    # Image for the IslamWeb API project
    │
+   ├── js/
+   │   └── main.js             #
+   │
    ├── index.html              # Main HTML file
    ├── README.md               # Project documentation (this file)
    └── .gitignore              # Git ignore file
