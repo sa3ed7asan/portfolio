@@ -62,12 +62,8 @@ function change_mode() {
 }
 
 if (currentTheme) {
-  body.classList.add(currentTheme === 'bg-dark' ? 'bg-dark' : 'light');
-  if (currentTheme === 'bg-dark') {
-    change_mode();
-  }
-} else {
-  body.classList.add('light');
+  body.classList.add(currentTheme);
+  change_mode();
 }
 
 themeToggleBtn.addEventListener('click', change_mode);
